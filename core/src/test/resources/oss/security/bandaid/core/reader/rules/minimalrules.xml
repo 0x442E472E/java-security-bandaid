@@ -1,0 +1,10 @@
+<rulegroups>
+    <group>
+        <rules>
+            <rule>
+                <selector>ClassName</selector>
+                <fix type="before">throw new RuntimeException("Access Blocked");</fix>
+            </rule>
+        </rules>
+    </group>
+</rulegroups>

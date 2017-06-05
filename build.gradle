@@ -1,0 +1,6 @@
+group 'oss.security.bandaid'
+version '0.1-SNAPSHOT'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}

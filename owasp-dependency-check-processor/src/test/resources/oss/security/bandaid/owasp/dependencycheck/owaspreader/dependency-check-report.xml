@@ -1,0 +1,3968 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://jeremylong.github.io/DependencyCheck/dependency-check.1.3.xsd">
+    <scanInfo>
+        <engineVersion>1.4.5</engineVersion>
+        <dataSource>
+            <name>NVD CVE 2002</name>
+            <timestamp>12/05/2017 09:40:01</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2003</name>
+            <timestamp>12/05/2017 09:38:05</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2004</name>
+            <timestamp>12/05/2017 09:37:30</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2005</name>
+            <timestamp>12/05/2017 09:36:25</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2006</name>
+            <timestamp>27/05/2017 09:12:24</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2007</name>
+            <timestamp>24/05/2017 09:24:58</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2008</name>
+            <timestamp>12/05/2017 09:28:58</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2009</name>
+            <timestamp>27/05/2017 09:09:45</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2010</name>
+            <timestamp>12/05/2017 09:23:37</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2011</name>
+            <timestamp>23/05/2017 09:28:56</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2012</name>
+            <timestamp>05/06/2017 09:10:03</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2013</name>
+            <timestamp>24/05/2017 09:20:38</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2014</name>
+            <timestamp>05/06/2017 09:07:23</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2015</name>
+            <timestamp>03/06/2017 09:03:47</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2016</name>
+            <timestamp>05/06/2017 09:04:18</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2017</name>
+            <timestamp>05/06/2017 09:01:07</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Checked</name>
+            <timestamp>05/06/2017 13:07:50</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Modified</name>
+            <timestamp>05/06/2017 12:00:24</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>VersionCheckOn</name>
+            <timestamp>1495742239917</timestamp>
+        </dataSource>
+    </scanInfo>
+    <projectInfo>
+        <name>gradle-sample</name>
+        <reportDate>2017-06-05T13:07:59.528+0200</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>logback-classic-1.1.11.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.1.11\ccedfbacef4a6515d2983e3f89ed753d5d4fb665\logback-classic-1.1.11.jar</filePath>
+            <md5>8064835579ddb2c86ae26b447b0c5f76</md5>
+            <sha1>ccedfbacef4a6515d2983e3f89ed753d5d4fb665</sha1>
+            <description>logback-classic module</description>
+            <license>http://www.eclipse.org/legal/epl-v10.html, http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>logback-classic</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>logback-classic module</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://www.qos.ch</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>JavaSE-1.6</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>ch.qos.logback.classic</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>originally-created-by</name>
+                    <value>Apache Maven Bundle Plugin</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>logback-classic</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>logback-classic module</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Logback Classic Module</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>logback-parent</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>logback-classic</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>logback-classic</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>logback-classic module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://www.qos.ch</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Logback Classic Module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>JavaSE-1.6</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>ch.qos.logback.classic</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>originally-created-by</name>
+                    <value>Apache Maven Bundle Plugin</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>logback-classic</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>logback-classic module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Logback Classic Module</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>logback-parent</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(ch.qos.logback:logback-classic:1.1.11)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22ccedfbacef4a6515d2983e3f89ed753d5d4fb665%22</url>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:logback:logback:1.1.11)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>logback-core-1.1.11.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.1.11\88b8df40340eed549fb07e2613879bf6b006704d\logback-core-1.1.11.jar</filePath>
+            <md5>cc7a8deacd26b0aa2668779ce2721c0f</md5>
+            <sha1>88b8df40340eed549fb07e2613879bf6b006704d</sha1>
+            <description>logback-core module</description>
+            <license>http://www.eclipse.org/legal/epl-v10.html, http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>logback-core</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>logback-core module</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://www.qos.ch</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>JavaSE-1.6</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>ch.qos.logback.core</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>originally-created-by</name>
+                    <value>Apache Maven Bundle Plugin</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>logback-core</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>logback-core module</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Logback Core Module</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>logback-parent</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>logback-core</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>logback-core</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>logback-core module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://www.qos.ch</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Logback Core Module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>JavaSE-1.6</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>ch.qos.logback.core</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>originally-created-by</name>
+                    <value>Apache Maven Bundle Plugin</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>logback-core</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>logback-core module</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>ch.qos.logback</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Logback Core Module</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>logback-parent</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.1.11</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(ch.qos.logback:logback-core:1.1.11)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%2288b8df40340eed549fb07e2613879bf6b006704d%22</url>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:logback:logback:1.1.11)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>jackson-xml-databind-0.5.3.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\com.fasterxml\jackson-xml-databind\0.5.3\ae1ae4a149c9a1388d7e1a39c3916bee62eb9aa7\jackson-xml-databind-0.5.3.jar</filePath>
+            <md5>745035e1947c0fa7c140c251ff2af57d</md5>
+            <sha1>ae1ae4a149c9a1388d7e1a39c3916bee62eb9aa7</sha1>
+            <description>Extension for Jackson (http://jackson.codehaus.org) to offer
+alternative support for serializing POJOs as XML and deserializing XML as pojos.
+Support implemented on top of Stax API (javax.xml.stream), by implementing core Jackson Streaming API types like JsonGenerator, JsonParser and JsonFactory.
+Some data-binding types overridden as well (ObjectMapper sub-classed as XmlMapper).
+  </description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>com.fasterxml</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Extension for Jackson (http://jackson.codehaus.org) to offeralternative support for serializing POJOs as XML and deserializing XML as pojos.Support implemented on top of Stax API (javax.xml.stream), by implementing core Jackson Streaming API types ...</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Extension for Jackson (http://jackson.codehaus.org) to offer
+alternative support for serializing POJOs as XML and deserializing XML as pojos.
+Support implemented on top of Stax API (javax.xml.stream), by implementing core Jackson Streaming API types ...</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>fasterxml</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Jackson-XML-databind</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://wiki.fasterxml.com/JacksonExtensionXmlDataBinding</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Extension for Jackson (http://jackson.codehaus.org) to offeralternative support for serializing POJOs as XML and deserializing XML as pojos.Support implemented on top of Stax API (javax.xml.stream), by implementing core Jackson Streaming API types ...</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-docurl</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Jackson-XML-databind</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-xml-databind</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Extension for Jackson (http://jackson.codehaus.org) to offer
+alternative support for serializing POJOs as XML and deserializing XML as pojos.
+Support implemented on top of Stax API (javax.xml.stream), by implementing core Jackson Streaming API types ...</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>fasterxml</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Jackson-XML-databind</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>0.5.3</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>0.5.3</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>0.5.3</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(com.fasterxml:jackson-xml-databind:0.5.3)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22ae1ae4a149c9a1388d7e1a39c3916bee62eb9aa7%22</url>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:fasterxml:jackson:0.5.3)</name>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2016-7051</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-918 Server-Side Request Forgery (SSRF)</cwe>
+                    <description>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/97688</url>
+                            <name>97688</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</url>
+                            <name>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:fasterxml:jackson:-</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability>
+                    <name>CVE-2016-3720</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.</description>
+                    <references>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://lists.fedoraproject.org/pipermail/package-announce/2016-May/184561.html</url>
+                            <name>FEDORA-2016-13b4cae9df</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:fasterxml:jackson:2.7.3</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>stax-api-1.0-2.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\javax.xml.stream\stax-api\1.0-2\d6337b0de8b25e53e81b922352fbea9f9f57ba0b\stax-api-1.0-2.jar</filePath>
+            <md5>7d18b63063580284c3f5734081fdc99f</md5>
+            <sha1>d6337b0de8b25e53e81b922352fbea9f9f57ba0b</sha1>
+            <description>
+    StAX is a standard XML processing API that allows you to stream XML data from and to your application.
+  </description>
+            <license>GNU General Public Library: http://www.gnu.org/licenses/gpl.txt
+COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0: http://www.sun.com/cddl/cddl.html</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>javax.xml.stream</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>stax-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>javax</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stream</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xml</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>stax-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>StAX is a standard XML processing API that allows you to stream XML data from and to your application.</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>javax.xml.stream</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Streaming API for XML</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>stax-api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>stax-api</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stream</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xml</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>stax-api</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>StAX is a standard XML processing API that allows you to stream XML data from and to your application.</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>javax.xml.stream</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Streaming API for XML</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.0-2</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.0.2</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.0-2</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(javax.xml.stream:stax-api:1.0-2)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>jackson-core-asl-1.7.1.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-core-asl\1.7.1\6c11953d1094b38e31c8ac7cda559db601caab1e\jackson-core-asl-1.7.1.jar</filePath>
+            <md5>4bea66717350eadef8b5400d59dade9e</md5>
+            <sha1>6c11953d1094b38e31c8ac7cda559db601caab1e</sha1>
+            <description>Jackson is a high-performance JSON processor (parser, generator)
+</description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codehaus</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>http://www.ietf.org/rfc/rfc4627.txt</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Jackson is a high-performance JSON processor (parser, generator)</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://jackson.codehaus.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Jackson JSON processor</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Jackson JSON processor</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>JSON - JavaScript Object Notation</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-core-asl</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Jackson is a high-performance JSON processor (parser, generator)</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Jackson</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:fasterxml:jackson:1.7.1)</name>
+                </identifier>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.codehaus.jackson:jackson-core-asl:1.7.1)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1.jar</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2016-7051</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-918 Server-Side Request Forgery (SSRF)</cwe>
+                    <description>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/97688</url>
+                            <name>97688</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</url>
+                            <name>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:fasterxml:jackson:-</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability>
+                    <name>CVE-2016-3720</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.</description>
+                    <references>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://lists.fedoraproject.org/pipermail/package-announce/2016-May/184561.html</url>
+                            <name>FEDORA-2016-13b4cae9df</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:fasterxml:jackson:2.7.3</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>jackson-mapper-asl-1.7.1.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-mapper-asl\1.7.1\6d48962876433e5401ff0133fc0e2efbd01ea7ac\jackson-mapper-asl-1.7.1.jar</filePath>
+            <md5>0014042c3c4d9320b8cd54aab3e0107b</md5>
+            <sha1>6d48962876433e5401ff0133fc0e2efbd01ea7ac</sha1>
+            <description>Data Mapper package is a high-performance data binding package
+built on Jackson JSON processor
+</description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codehaus</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>map</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Data Mapper package is a high-performance data binding package
+built on Jackson JSON processor</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Data Mapper for Jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://jackson.codehaus.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>map</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Data mapper for Jackson JSON processor</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Data mapper for Jackson JSON processor</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-mapper-asl</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Data Mapper package is a high-performance data binding package
+built on Jackson JSON processor</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Data Mapper for Jackson</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:fasterxml:jackson:1.7.1)</name>
+                </identifier>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.codehaus.jackson:jackson-mapper-asl:1.7.1)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/codehaus/jackson/jackson-mapper-asl/1.7.1/jackson-mapper-asl-1.7.1.jar</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2016-7051</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-918 Server-Side Request Forgery (SSRF)</cwe>
+                    <description>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/97688</url>
+                            <name>97688</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</url>
+                            <name>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:fasterxml:jackson:-</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability>
+                    <name>CVE-2016-3720</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.</description>
+                    <references>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://lists.fedoraproject.org/pipermail/package-announce/2016-May/184561.html</url>
+                            <name>FEDORA-2016-13b4cae9df</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:fasterxml:jackson:2.7.3</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>jackson-xc-1.7.1.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-xc\1.7.1\5eb6018a46439ae23afa3699005277ca2a0f7b47\jackson-xc-1.7.1.jar</filePath>
+            <md5>6f54a99f0581baafea7072add0249914</md5>
+            <sha1>5eb6018a46439ae23afa3699005277ca2a0f7b47</sha1>
+            <description>Extensions that provide interoperability support for
+Jackson JSON processor&apos;s data binding functionality.
+</description>
+            <license>The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt
+GNU Lesser General Public License (LGPL), Version 2.1: http://www.fsf.org/licensing/licenses/lgpl.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codehaus</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xc</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Extensions that provide interoperability support for
+Jackson JSON processor&apos;s data binding functionality.</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Xml Compatibility extensions for Jackson</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://jackson.codehaus.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jackson</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>xc</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>XML Compatibility extensions for Jackson data binding</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>XML Compatibility extensions for Jackson data binding</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jackson-xc</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Extensions that provide interoperability support for
+Jackson JSON processor&apos;s data binding functionality.</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.jackson</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Xml Compatibility extensions for Jackson</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://fasterxml.com</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.1</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:fasterxml:jackson:1.7.1)</name>
+                </identifier>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.codehaus.jackson:jackson-xc:1.7.1)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1.jar</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2016-7051</name>
+                    <cvssScore>5.0</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-918 Server-Side Request Forgery (SSRF)</cwe>
+                    <description>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/97688</url>
+                            <name>97688</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=1378673</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</url>
+                            <name>https://github.com/FasterXML/jackson-dataformat-xml/issues/211</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:fasterxml:jackson:-</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+                <vulnerability>
+                    <name>CVE-2016-3720</name>
+                    <cvssScore>7.5</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>PARTIAL</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>High</severity>
+                    <description>XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.</description>
+                    <references>
+                        <reference>
+                            <source>FEDORA</source>
+                            <url>http://lists.fedoraproject.org/pipermail/package-announce/2016-May/184561.html</url>
+                            <name>FEDORA-2016-13b4cae9df</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:fasterxml:jackson:2.7.3</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>stax2-api-3.1.0.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.codehaus.woodstox\stax2-api\3.1.0\e2bc096b64420aeeb7f2ee1554322701bf2b31e6\stax2-api-3.1.0.jar</filePath>
+            <md5>ac4b4ff4d7a507a05e273f013d2c0c17</md5>
+            <sha1>e2bc096b64420aeeb7f2ee1554322701bf2b31e6</sha1>
+            <description>Stax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.
+</description>
+            <license>The BSD License: http://www.opensource.org/licenses/bsd-license.php</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.codehaus.woodstox</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>codehaus</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ri</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stax2</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.4</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>http://woodstox.codehaus.org</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>http://woodstox.codehaus.org</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Stax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.woodstox</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Stax2 API</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.codehaus.org/</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://woodstox.codehaus.org/StAX2</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>ri</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>stax2</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Stax2 API</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.4</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Stax2 API</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Stax2 API</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>stax2-api</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Stax2 API is an extension to basic Stax 1.0 API that adds significant new functionality, such as full-featured bi-direction validation interface and high-performance Typed Access API.</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>codehaus.woodstox</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Stax2 API</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.codehaus.org/</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>3.1.0</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>3.1.0</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>3.1.0</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>3.1.0</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.codehaus.woodstox:stax2-api:3.1.0)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/codehaus/woodstox/stax2-api/3.1.0/stax2-api-3.1.0.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>javassist-3.21.0-GA.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.21.0-GA\598244f595db5c5fb713731eddbb1c91a58d959b\javassist-3.21.0-GA.jar</filePath>
+            <md5>3dba2305f842c2891df0a0926e18bcfa</md5>
+            <sha1>598244f595db5c5fb713731eddbb1c91a58d959b</sha1>
+            <description>
+  	Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation
+    simple.  It is a class library for editing bytecodes in Java.
+  </description>
+            <license>MPL 1.1: http://www.mozilla.org/MPL/MPL-1.1.html
+LGPL 2.1: http://www.gnu.org/licenses/lgpl-2.1.html
+Apache License 2.0: http://www.apache.org/licenses/</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Shigeru Chiba, www.javassist.org</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Javassist</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>Shigeru Chiba, www.javassist.org</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.javassist.org/</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>Javassist</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.6))&quot;</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Javassist</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>javassist</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Javassist</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>Shigeru Chiba, www.javassist.org</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>3.21.0-GA</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>3.21.0</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>3.21.0-GA</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.javassist:javassist:3.21.0-GA)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22598244f595db5c5fb713731eddbb1c91a58d959b%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>jcl-over-slf4j-1.7.25.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.slf4j\jcl-over-slf4j\1.7.25\f8c32b13ff142a513eeb5b6330b1588dcb2c0461\jcl-over-slf4j-1.7.25.jar</filePath>
+            <md5>56b22adc639b09b2e917f42d68b26600</md5>
+            <sha1>f8c32b13ff142a513eeb5b6330b1588dcb2c0461</sha1>
+            <description>JCL 1.2 implemented over SLF4J</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jcl.over.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.slf4j.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jcl.over.slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jcl-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>JCL 1.2 implemented over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.slf4j:jcl-over-slf4j:1.7.25)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22f8c32b13ff142a513eeb5b6330b1588dcb2c0461%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>jul-to-slf4j-1.7.25.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\1.7.25\af5364cd6679bfffb114f0dec8a157aaa283b76\jul-to-slf4j-1.7.25.jar</filePath>
+            <md5>ab28124cb05fec600f2ffe37b94629e0</md5>
+            <sha1>0af5364cd6679bfffb114f0dec8a157aaa283b76</sha1>
+            <description>JUL to SLF4J bridge</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jul.to.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.slf4j.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>jul.to.slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>jul-to-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>JUL to SLF4J bridge</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.slf4j:jul-to-slf4j:1.7.25)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%220af5364cd6679bfffb114f0dec8a157aaa283b76%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>log4j-over-slf4j-1.7.25.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.slf4j\log4j-over-slf4j\1.7.25\a87bb47468f47ee7aabbd54f93e133d4215769c3\log4j-over-slf4j-1.7.25.jar</filePath>
+            <md5>fb818c7981d842875905587a61f2b942</md5>
+            <sha1>a87bb47468f47ee7aabbd54f93e133d4215769c3</sha1>
+            <description>Log4j implemented over SLF4J</description>
+            <license>Apache Software Licenses: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Log4j implemented over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>log4j.over.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Log4j implemented over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Log4j Implemented Over SLF4J</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.slf4j.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>Log4j implemented over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>log4j.over.slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>log4j-over-slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Log4j implemented over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Log4j Implemented Over SLF4J</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.slf4j:log4j-over-slf4j:1.7.25)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22a87bb47468f47ee7aabbd54f93e133d4215769c3%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>slf4j-api-1.7.25.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar</filePath>
+            <md5>caafe376afb7086dcbee79f780394ca3</md5>
+            <sha1>da76ca59f6a57ee3102f8f9bd9cee742973efa8a</sha1>
+            <description>The slf4j API</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>The slf4j API</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>slf4j.api</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The slf4j API</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>SLF4J API Module</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.slf4j.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>The slf4j API</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>slf4j.api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>slf4j-api</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>The slf4j API</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>slf4j</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>SLF4J API Module</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>slf4j-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.slf4j</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.7.25</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.7.25</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.slf4j:slf4j-api:1.7.25)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22da76ca59f6a57ee3102f8f9bd9cee742973efa8a%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-boot-autoconfigure-1.5.3.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\1.5.3.RELEASE\b2b4d4a704f039bf22787cc412b1dd34741821fc\spring-boot-autoconfigure-1.5.3.RELEASE.jar</filePath>
+            <md5>ed9fd89f47a140124a5e2b6d07517dd9</md5>
+            <sha1>b2b4d4a704f039bf22787cc412b1dd34741821fc</sha1>
+            <description>Spring Boot AutoConfigure</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-autoconfigure</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-autoconfigure</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-autoconfigure</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-autoconfigure</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-autoconfigure</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot AutoConfigure</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework.boot:spring-boot-autoconfigure:1.5.3.RELEASE)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22b2b4d4a704f039bf22787cc412b1dd34741821fc%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-boot-starter-logging-1.5.3.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\1.5.3.RELEASE\ae7f1d938755553b228dd7a7f98aebb0a683c099\spring-boot-starter-logging-1.5.3.RELEASE.jar</filePath>
+            <md5>4fdfab90d61678a550e75ba40b2d080e</md5>
+            <sha1>ae7f1d938755553b228dd7a7f98aebb0a683c099</sha1>
+            <description>Starter for logging using Logback. Default logging starter</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-starter-logging</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter-logging</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Starter for logging using Logback. Default logging starter</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot Logging Starter</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-starters</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter-logging</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-starter-logging</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Spring Boot Logging Starter</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Spring Boot Logging Starter</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter-logging</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Starter for logging using Logback. Default logging starter</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot Logging Starter</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-starters</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework.boot:spring-boot-starter-logging:1.5.3.RELEASE)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%22ae7f1d938755553b228dd7a7f98aebb0a683c099%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-boot-starter-1.5.3.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\1.5.3.RELEASE\3b966d5e3d422474b7af2e73ae0d371ae02718b\spring-boot-starter-1.5.3.RELEASE.jar</filePath>
+            <md5>dbed0cb5ae026c536bebed50af82b417</md5>
+            <sha1>03b966d5e3d422474b7af2e73ae0d371ae02718b</sha1>
+            <description>Core starter, including auto-configuration support, logging and YAML</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-starter</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Core starter, including auto-configuration support, logging and YAML</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot Starter</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-starters</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot-starter</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Spring Boot Starter</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Spring Boot Starter</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot-starter</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Core starter, including auto-configuration support, logging and YAML</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot Starter</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-starters</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework.boot:spring-boot-starter:1.5.3.RELEASE)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%2203b966d5e3d422474b7af2e73ae0d371ae02718b%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-boot-1.5.3.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\1.5.3.RELEASE\5fedde3489afd5dbd82f9122aaec4c9f6da3d564\spring-boot-1.5.3.RELEASE.jar</filePath>
+            <md5>36bbf6aff3f56046cf4f8ac9373886be</md5>
+            <sha1>5fedde3489afd5dbd82f9122aaec4c9f6da3d564</sha1>
+            <description>Spring Boot</description>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Implementation-Vendor-Id</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>specification-vendor</name>
+                    <value>Pivotal Software, Inc.</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-parent</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>implementation-url</name>
+                    <value>http://projects.spring.io/spring-boot/</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>specification-title</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-boot</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework.boot</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Boot</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://www.spring.io</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>parent-artifactid</name>
+                    <value>spring-boot-parent</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>parent-groupid</name>
+                    <value>org.springframework.boot</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.5.3.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework.boot:spring-boot:1.5.3.RELEASE)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%225fedde3489afd5dbd82f9122aaec4c9f6da3d564%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-aop-4.3.8.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\4.3.8.RELEASE\2ee7e60f8838bff13c5def48fab571ab10553e5d\spring-aop-4.3.8.RELEASE.jar</filePath>
+            <md5>5deeeecf0dfd3f9847818a6b1deecb7d</md5>
+            <sha1>2ee7e60f8838bff13c5def48fab571ab10553e5d</sha1>
+            <description>Spring AOP</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>aop</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring AOP</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring AOP</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>https://github.com/spring-projects/spring-framework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>aop</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-aop</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring AOP</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring AOP</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework:spring-aop:4.3.8.RELEASE)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-beans-4.3.8.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\4.3.8.RELEASE\9d39133bb80e13d643bfefd731fe86cab3aa2bd7\spring-beans-4.3.8.RELEASE.jar</filePath>
+            <md5>7c96285cc326b14a5d1aae925bf121f3</md5>
+            <sha1>9d39133bb80e13d643bfefd731fe86cab3aa2bd7</sha1>
+            <description>Spring Beans</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>beans</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>factory</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Beans</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Beans</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>https://github.com/spring-projects/spring-framework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>beans</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>factory</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-beans</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Beans</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Beans</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework:spring-beans:4.3.8.RELEASE)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-context-4.3.8.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\4.3.8.RELEASE\944073ac58ab78b78a7694d2c53d4ae9f634c815\spring-context-4.3.8.RELEASE.jar</filePath>
+            <md5>7512e2be5a2ef287b6625ea13ead6c37</md5>
+            <sha1>944073ac58ab78b78a7694d2c53d4ae9f634c815</sha1>
+            <description>Spring Context</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Context</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Context</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>https://github.com/spring-projects/spring-framework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-context</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Context</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Context</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework:spring-context:4.3.8.RELEASE)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-core-4.3.8.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\4.3.8.RELEASE\cce6c251249e48f0a86aa578c2a0e262efa5a1e0\spring-core-4.3.8.RELEASE.jar</filePath>
+            <md5>6cfb77086005e125dff38f180c90f093</md5>
+            <sha1>cce6c251249e48f0a86aa578c2a0e262efa5a1e0</sha1>
+            <description>Spring Core</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>pivotal software</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>SpringSource</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>hint analyzer</source>
+                    <name>vendor</name>
+                    <value>vmware</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>core</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Core</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Core</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>https://github.com/spring-projects/spring-framework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>hint analyzer</source>
+                    <name>product</name>
+                    <value>springsource_spring_framework</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>core</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-core</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Core</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Core</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:pivotal:spring_framework:4.3.8)</name>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:pivotal_software:spring_framework:4.3.8)</name>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:springsource:spring_framework:4.3.8)</name>
+                </identifier>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:vmware:springsource_spring_framework:4.3.8)</name>
+                </identifier>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework:spring-core:4.3.8.RELEASE)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>spring-expression-4.3.8.RELEASE.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\4.3.8.RELEASE\204f7e241f42f46b16baa3d190752703efd7797\spring-expression-4.3.8.RELEASE.jar</filePath>
+            <md5>4f2642b43ef001ec3007f28fc6cd7c51</md5>
+            <sha1>0204f7e241f42f46b16baa3d190752703efd7797</sha1>
+            <description>Spring Expression Language (SpEL)</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>expression</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>spel</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Expression Language (SpEL)</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Expression Language (SpEL)</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>https://github.com/spring-projects/spring-framework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>expression</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>spel</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Title</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>spring-expression</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>Spring Expression Language (SpEL)</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>springframework</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>Spring Expression Language (SpEL)</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>organization name</name>
+                    <value>http://projects.spring.io/spring-framework</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Implementation-Version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>4.3.8.RELEASE</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.springframework:spring-expression:4.3.8.RELEASE)</name>
+                    <url>http://search.maven.org/remotecontent?filepath=org/springframework/spring-expression/4.3.8.RELEASE/spring-expression-4.3.8.RELEASE.jar</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>snakeyaml-1.17.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\1.17\7a27ea250c5130b2922b86dea63cbb1cc10a660c\snakeyaml-1.17.jar</filePath>
+            <md5>ab621c3cee316236ad04a6f0fe4dd17c</md5>
+            <sha1>7a27ea250c5130b2922b86dea63cbb1cc10a660c</sha1>
+            <description>YAML 1.1 parser and emitter for Java</description>
+            <license>Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt</license>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>groupid</name>
+                    <value>org.yaml</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>snakeyaml</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>YAML 1.1 parser and emitter for Java</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.yaml.snakeyaml</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.5))&quot;</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>snakeyaml</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>YAML 1.1 parser and emitter for Java</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>yaml</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>SnakeYAML</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>url</name>
+                    <value>http://www.snakeyaml.org</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>artifactid</name>
+                    <value>snakeyaml</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>snakeyaml</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>manifest</source>
+                    <name>Bundle-Description</name>
+                    <value>YAML 1.1 parser and emitter for Java</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>SnakeYAML</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>bundle-requiredexecutionenvironment</name>
+                    <value>J2SE-1.5</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>org.yaml.snakeyaml</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>Manifest</source>
+                    <name>require-capability</name>
+                    <value>osgi.ee;filter:=&quot;(&amp;(osgi.ee=JavaSE)(version=1.5))&quot;</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>snakeyaml</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>pom</source>
+                    <name>description</name>
+                    <value>YAML 1.1 parser and emitter for Java</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>yaml</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>pom</source>
+                    <name>name</name>
+                    <value>SnakeYAML</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>central</source>
+                    <name>version</name>
+                    <value>1.17</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>1.17</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>1.17</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGHEST">
+                    <name>(org.yaml:snakeyaml:1.17)</name>
+                    <url>http://search.maven.org/#search|ga|1|1%3A%227a27ea250c5130b2922b86dea63cbb1cc10a660c%22</url>
+                </identifier>
+            </identifiers>
+        </dependency>
+        <dependency>
+            <fileName>support-0.1-SNAPSHOT.jar</fileName>
+            <filePath>C:\Users\0x442E472E\.m2\repository\oss\security\bandaid\support\0.1-SNAPSHOT\support-0.1-SNAPSHOT.jar</filePath>
+            <md5>37e726cf9b12f6a6212b70dbf25629bd</md5>
+            <sha1>466fb29b6336c819f465242cf96c46b64ba780f6</sha1>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>support</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>bandaid</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>oss</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>security</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>support</value>
+                </evidence>
+                <evidence type="vendor" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>oss.security.bandaid</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>support</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>bandaid</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>security</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>support</value>
+                </evidence>
+                <evidence type="product" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>artifactid</name>
+                    <value>support</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>pom</source>
+                    <name>groupid</name>
+                    <value>oss.security.bandaid</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>0.1</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>pom</source>
+                    <name>version</name>
+                    <value>0.1-SNAPSHOT</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="maven" confidence="HIGH">
+                    <name>(oss.security.bandaid:support:0.1-SNAPSHOT)</name>
+                </identifier>
+            </identifiers>
+        </dependency>
+    </dependencies>
+</analysis>

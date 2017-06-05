@@ -1,0 +1,10 @@
+<rulegroups>
+    <group>
+        <rules>
+            <rule>
+                <selector>ClassName->MethodName->Descriptor</selector>
+                <fix>throw new RuntimeException("Access Blocked");</fix>
+            </rule>
+        </rules>
+    </group>
+</rulegroups>

@@ -1,0 +1,13 @@
+<rulegroups>
+    <group>
+        <metadata>
+            <entry key="testkey">testvalue</entry>
+        </metadata>
+        <rules>
+            <rule>
+                <selector>ClassName->MethodName->Descriptor</selector>
+                <fix type="before">throw new RuntimeException("Access Blocked");</fix>
+            </rule>
+        </rules>
+    </group>
+</rulegroups>

@@ -1,0 +1,10 @@
+<rulegroups>
+    <group>
+        <rules>
+            <rule>
+                <selector>oss.security.bandaid.samples.gradle.Application->someMethod</selector>
+                <fix type="before">throw new RuntimeException("TESTSUCCESS");</fix>
+            </rule>
+        </rules>
+    </group>
+</rulegroups>

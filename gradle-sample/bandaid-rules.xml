@@ -1,0 +1,14 @@
+<rulegroups>
+  <group>
+    <rules>
+      <rule>
+        <selector>com.fasterxml.jackson.xml.XmlFactory->XmlFactory->(Lorg/codehaus/jackson/ObjectCodec;Ljavax/xml/stream/XMLInputFactory;Ljavax/xml/stream/XMLOutputFactory;)V</selector>
+        <fix type="after">xmlIn.setProperty(javax.xml.stream.XMLInputFactory.SUPPORT_DTD, Boolean.FALSE);</fix>
+      </rule>
+    </rules>
+    <metadata>
+      <entry key="cve">CVE-2016-7051</entry>
+      <entry key="resolution.strategy">fix</entry>
+    </metadata>
+  </group>
+</rulegroups>

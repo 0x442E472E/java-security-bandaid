@@ -1,0 +1,13 @@
+<rulegroups>
+    <group>
+        <metadata>
+            <entry key="resolution.strategy">fix</entry>
+        </metadata>
+        <rules>
+            <rule>
+                <selector>oss.security.bandaid.samples.gradle.Application->someMethod</selector>
+                <fix type="before">System.out.println("fix applied!"); return;</fix>
+            </rule>
+        </rules>
+    </group>
+</rulegroups>

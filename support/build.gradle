@@ -1,0 +1,16 @@
+group 'oss.security.bandaid'
+version '0.1-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.javassist', name: 'javassist', version: '3.21.0-GA'
+}

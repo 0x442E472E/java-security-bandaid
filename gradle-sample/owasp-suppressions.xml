@@ -1,0 +1,28 @@
+<suppressions>
+  <suppress>
+    <suppress>
+      <notes>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</notes>
+      <cve>CVE-2016-7051</cve>
+      <filePath regexp="true">.*\b\Qjackson-xml-databind-0.5.3.jar\E</filePath>
+      <sha1>ae1ae4a149c9a1388d7e1a39c3916bee62eb9aa7</sha1>
+    </suppress>
+    <suppress>
+      <notes>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</notes>
+      <cve>CVE-2016-7051</cve>
+      <filePath regexp="true">.*\b\Qjackson-core-asl-1.7.1.jar\E</filePath>
+      <sha1>6c11953d1094b38e31c8ac7cda559db601caab1e</sha1>
+    </suppress>
+    <suppress>
+      <notes>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</notes>
+      <cve>CVE-2016-7051</cve>
+      <filePath regexp="true">.*\b\Qjackson-mapper-asl-1.7.1.jar\E</filePath>
+      <sha1>6d48962876433e5401ff0133fc0e2efbd01ea7ac</sha1>
+    </suppress>
+    <suppress>
+      <notes>XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.</notes>
+      <cve>CVE-2016-7051</cve>
+      <filePath regexp="true">.*\b\Qjackson-xc-1.7.1.jar\E</filePath>
+      <sha1>5eb6018a46439ae23afa3699005277ca2a0f7b47</sha1>
+    </suppress>
+  </suppress>
+</suppressions>

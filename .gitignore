@@ -1,0 +1,7 @@
+.gradle/
+.idea/
+core/build/
+gradle-plugin/build/
+gradle-sample/build/
+owasp-dependency-check-processor/build/
+support/build/

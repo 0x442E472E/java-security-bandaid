@@ -1,0 +1,9 @@
+<cves>
+    <cve cve="test">
+        <rule>
+            <className>ClassName</className>
+            <fix>throw new RuntimeException("Access Blocked");</fix>
+            <reason>Test</reason>
+        </rule>
+    </cve>
+</cves>

@@ -1,0 +1,22 @@
+group 'oss.security.bandaid'
+version '0.1-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://repo.spring.io/libs-snapshot"
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile gradleApi()
+    compile project(':owasp-dependency-check-processor')
+    compile project(':support')
+    compile project(':core')
+    compile group: 'org.springframework.boot', name: 'spring-boot-loader', version: '1.5.4.BUILD-SNAPSHOT'
+
+}
