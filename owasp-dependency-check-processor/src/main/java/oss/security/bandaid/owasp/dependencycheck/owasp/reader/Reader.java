@@ -21,6 +21,8 @@ import java.util.stream.Collectors;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Reads an OWASP dependency check report
  */
 public class Reader {
     private File xmlFile;

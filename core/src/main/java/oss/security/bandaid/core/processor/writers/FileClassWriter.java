@@ -8,6 +8,8 @@ import java.io.IOException;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Writes classes to simple .class files
  */
 public class FileClassWriter implements  ClassWriter {
     private String directory;

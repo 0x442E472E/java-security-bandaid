@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
+/**
+ * Writes an OWASP suppression file
+ */
 public class SuppressionFileWriter {
     private File xmlFile;
 

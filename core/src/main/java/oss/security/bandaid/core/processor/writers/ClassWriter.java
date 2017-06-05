@@ -8,6 +8,8 @@ import java.io.IOException;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Writes classes
  */
 public interface ClassWriter extends AutoCloseable, Closeable {
     public void write(CtClass ctClass) throws CannotCompileException, IOException;

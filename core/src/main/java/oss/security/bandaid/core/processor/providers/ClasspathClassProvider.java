@@ -12,6 +12,8 @@ import java.util.List;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Loads by classpath
  */
 public class ClasspathClassProvider implements ClassProvider {
     private ClassPool classPool;

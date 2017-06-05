@@ -12,6 +12,8 @@ import java.util.logging.Level;
 
 /**
  * Created by 0x442E472E on 03.06.2017.
+ *
+ * Selects one or more methods or constructors of a class
  */
 public class Selector {
     private String className;

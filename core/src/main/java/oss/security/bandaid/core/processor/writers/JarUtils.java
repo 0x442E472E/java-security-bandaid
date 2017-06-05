@@ -16,6 +16,14 @@ import java.util.zip.ZipOutputStream;
 
 public class JarUtils {
     private static final Logger logger = Logger.getLogger(JarClassWriter.class.getName());
+
+    /**
+     * Adds the specified entries to an existing jar file but at a new location
+     * @param jar existing jar
+     * @param saveEntries entries to save
+     * @return the new file
+     * @throws IOException
+     */
     public static File saveJarFile(JarFile jar, List<SaveEntry> saveEntries) throws IOException {
         Set<String> filenames = saveEntries.stream().map(SaveEntry::getFilename).collect(Collectors.toSet());
         File target = File.createTempFile("TempJar",".jar");

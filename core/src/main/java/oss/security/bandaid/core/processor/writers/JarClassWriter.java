@@ -18,6 +18,8 @@ import java.util.stream.Collectors;
 
 /**
  * Created by 0x442E472E on 27.05.2017.
+ *
+ * Writes classes to .jar files
  */
 public class JarClassWriter implements ClassWriter {
     private static final Logger logger = Logger.getLogger(JarClassWriter.class.getName());

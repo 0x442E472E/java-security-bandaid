@@ -24,6 +24,12 @@ dependencies {
     compile group: 'oss.security.bandaid', name: 'support', version: '0.1-SNAPSHOT'
 }
 ```
+## Print selectors
+The task listBandaidSelectors will output possible selectors for given classes. You can specify the classes with the property bandaid.listclasses (comma-separated).
+Example:
+```
+gradlew example:listBandaidSelectors -Pbandaid.listclasses=com.example.Main,com.example.Util
+```
 ## Why is only Spring Boot supported currently?
 The plugin needs to know where it can find the classes belonging to your project or third party dependencies.
 While loading these classes is no problem, writing is, because we don't want to poison your local dependency cache. Because of this, this plugin needs to know how you distribute your dependencies and adapt to that. This has only been done for Spring Boot so far.

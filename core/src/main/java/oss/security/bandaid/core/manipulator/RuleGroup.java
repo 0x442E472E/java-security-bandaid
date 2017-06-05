@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * Created by 0x442E472E on 03.06.2017.
+ *
+ * Groups multiple Rules and assigns meta data to them
  */
 public class RuleGroup {
     private Map<String, String> metadata;

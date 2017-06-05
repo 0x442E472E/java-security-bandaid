@@ -13,6 +13,8 @@ import java.util.stream.Collectors;
 
 /**
  * Created by 0x442E472E on 26.05.2017.
+ *
+ * Combines an OWASP dependency check report with supplied rules
  */
 public class Processor {
     private final SuppressionFileWriter suppressionWriter;

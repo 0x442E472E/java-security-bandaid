@@ -4,8 +4,11 @@ import java.util.*;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Helper class
  */
 public class Bandaid {
+    //TODO: This list probably shouldn't be synchronized because this may significantly impact performance
     protected final static List<BandaidHandler> HANDLERS = Collections.synchronizedList(new ArrayList<>());
     protected final static Comparator<BandaidHandler> COMPARATOR = new Comparator<BandaidHandler>() {
         @Override
@@ -14,6 +17,10 @@ public class Bandaid {
         }
     };
 
+    /**
+     * Adds a BandaidHandler
+     * @param handler
+     */
     public static void addHandler(BandaidHandler handler) {
         synchronized (HANDLERS) {
             HANDLERS.add(handler);

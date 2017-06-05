@@ -9,7 +9,7 @@ public class BandaidHandlerAdapter implements BandaidHandler {
 
     @Override
     public int getBandaidOrder() {
-        return LAST_HANDLER;
+        return 0;
     }
 
     @Override

@@ -7,6 +7,8 @@ import java.util.Set;
 
 /**
  * Created by 0x442E472E on 04.06.2017.
+ *
+ * Filters rule groups based on their CVE
  */
 public class CveFilter implements RuleReader.RuleGroupFilter {
     public final static String CVE_KEY = "cve";

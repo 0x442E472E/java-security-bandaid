@@ -13,6 +13,8 @@ import java.util.logging.Logger;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Applies a fix to every Method that satisfies the selector
  */
 public class Rule {
     private static final Logger logger = Logger.getLogger(Rule.class.getName());

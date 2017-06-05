@@ -16,6 +16,8 @@ import java.util.stream.Collectors;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Applies the rules
  */
 public class RuleProcessor {
     private static final Logger logger = Logger.getLogger(RuleProcessor.class.getName());

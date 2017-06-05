@@ -22,6 +22,8 @@ import java.util.stream.Collectors;
 
 /**
  * Created by 0x442E472E on 25.05.2017.
+ *
+ * Reads rules from a XML file and optionally converts them
  */
 public class RuleReader {
     public static final String SELECTOR_SEPARATOR = "->";

@@ -41,6 +41,29 @@ An example can be found in [gradle-sample](gradle-sample).
 A Rule contains code that shall be inserted before or after the original method body. Rules are divided into groups and every group solves a specific problem.
 You can attach meta data to a group that can be used to select groups (the cve tag is used by owasp-depenency-check-processor, for example) or at runtime.
 
+#### Selector
+The selector can select one or more methods or constructors of a class to which the fix shall be applied. It has to be of the following format:
+```
+fully.qualified.class.Name[->methodName[->methodDescriptor]]
+```
+
+The method descriptor must be according to the java specifications. The gradle-plugin contains a task that prints possible selectors for a class.
+
+Examples:
+```
+//select every method or constructor of a class:
+com.myexample.Application
+
+//selects (one or more) methods with the name doSomething
+com.myexample.Application->doSomething
+
+//selects (one or more) constructors
+com.myexample.Application->Application
+
+//selects a single method with the name doSomething, no parameters and a void return type
+com.myexample.Application->doSomething->()V
+```
+
 #### How to write good rules
 Ideally you would provide a rule that completely fixes the underlying vulnerability. However, because this is not always possible, please try the following approaches and stop at whichever works:
 - Provide code that completely fixes the vulnerability

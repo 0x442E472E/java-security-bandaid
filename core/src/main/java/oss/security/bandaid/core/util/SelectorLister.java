@@ -12,6 +12,8 @@ import java.util.*;
 
 /**
  * Created by 0x442E472E on 04.06.2017.
+ *
+ * Analyzes a class and returns possible selectors
  */
 public class SelectorLister {
     private Set<String> classNames;
