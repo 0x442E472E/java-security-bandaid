@@ -2,6 +2,6 @@ rootProject.name = 'bandaid'
 include 'core'
 include 'support'
 include 'owasp-dependency-check-processor'
-include 'gradle-sample'
+//include 'gradle-sample'
 include 'gradle-plugin'
 
