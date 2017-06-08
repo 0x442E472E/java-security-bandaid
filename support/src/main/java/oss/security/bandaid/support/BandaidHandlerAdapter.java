@@ -22,4 +22,14 @@ public class BandaidHandlerAdapter implements BandaidHandler {
         return false;
     }
 
+    @Override
+    public void handleStaticMethodBlock(final Map<String, String> metadata, final Class sender, final String methodName, final Object... args) {
+
+    }
+
+    @Override
+    public void handleMethodBlock(final Map<String, String> metadata, final Object sender, final String methodName, final Object... args) {
+
+    }
+
 }

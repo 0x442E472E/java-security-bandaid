@@ -7,6 +7,7 @@ import javassist.CtClass;
 import javassist.NotFoundException;
 import org.junit.Before;
 import org.junit.Test;
+import oss.security.bandaid.support.BandaidException;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
@@ -119,6 +120,25 @@ public class AnRule {
     }
 
     @Test
+    public void canApplyMethodBlock() throws Rule.RuleException, CannotCompileException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+        RuleGroup ruleGroup = new RuleGroup(new HashMap<>());
+        Rule rule = new Rule(new Selector(DummyClass.class.getName(), "method", "(Ljava/lang/String;)V"), new StaticCodeFix("oss.security.bandaid.support.Bandaid.newMethodBlock(bandaidMetadataMap, $class, \"method\", $args);", StaticCodeFix.Entrypoint.Before), ruleGroup);
+        rule.apply(clazz);
+
+        Class newClass = clazz.toClass();
+        Object object = newClass.newInstance();
+        try {
+            newClass.getMethod("method", String.class).invoke(object, "");
+            fail("Did not apply behaviour");
+        } catch (InvocationTargetException e) {
+            if(e.getCause() == null || !(e.getCause() instanceof BandaidException)) {
+                throw e;
+            }
+        }
+
+    }
+
+    @Test
     public void canApplyToConstructor() throws Rule.RuleException, CannotCompileException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         RuleGroup ruleGroup = new RuleGroup(new HashMap<>());
         Rule rule = new Rule(new Selector(DummyClass.class.getName(), clazz.getSimpleName()), new StaticCodeFix("throw new RuntimeException(\"TESTTEST\");", StaticCodeFix.Entrypoint.After), ruleGroup);
@@ -150,8 +170,6 @@ public class AnRule {
         try {
             newClass.getMethod("emptyMethod").invoke(object);
             fail("Did not apply behaviour");
-        } catch (RuntimeException ignored) {
-
         } catch (InvocationTargetException e) {
             if(e.getCause() == null || !e.getCause().getMessage().startsWith("TESTTEST")) {
                 throw e;
@@ -174,8 +192,6 @@ public class AnRule {
         try {
             newClass.getMethod("staticMethod").invoke(object);
             fail("Did not apply behaviour");
-        } catch (RuntimeException ignored) {
-
         } catch (InvocationTargetException e) {
             if(e.getCause() == null || !e.getCause().getMessage().startsWith("TESTTEST")) {
                 throw e;

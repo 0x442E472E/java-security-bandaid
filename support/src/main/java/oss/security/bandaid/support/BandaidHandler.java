@@ -23,4 +23,8 @@ public interface BandaidHandler {
      * @return true if the event has been handled and no further handlers shall be invoked. This will also suppress the default behaviour
      */
     public boolean handleStaticMethodEvent(Map<String, String> metadata, Class sender, String methodName, Object...args);
+
+    public void handleStaticMethodBlock(Map<String, String> metadata, Class sender, String methodName, Object... args);
+
+    public void handleMethodBlock(Map<String, String> metadata, Object sender, String methodName, Object... args);
 }

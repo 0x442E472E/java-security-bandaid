@@ -58,5 +58,23 @@ public class Bandaid {
         return false;
     }
 
+    public static void newMethodBlock(Map<String, String> metadata, Object sender, String methodname, Object...args) {
+        synchronized (HANDLERS) {
+            for(BandaidHandler handler: HANDLERS) {
+                handler.handleMethodBlock(metadata, sender, methodname, args);
+            }
+            throw new BandaidException("Method has been blocked");
+        }
+    }
+
+    public static void newStaticMethodBlock(Map<String, String> metadata, Class sender, String methodname, Object...args) {
+        synchronized (HANDLERS) {
+            for(BandaidHandler handler: HANDLERS) {
+                handler.handleStaticMethodBlock(metadata, sender, methodname, args);
+            }
+            throw new BandaidException("Method has been blocked");
+        }
+    }
+
 
 }
