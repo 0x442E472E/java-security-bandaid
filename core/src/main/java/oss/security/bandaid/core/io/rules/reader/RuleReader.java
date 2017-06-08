@@ -125,6 +125,8 @@ public class RuleReader {
             return new StaticCodeFix(fix.text, StaticCodeFix.Entrypoint.After);
         } else if(fix.type == Fix.Type.before){
             return new StaticCodeFix(fix.text, StaticCodeFix.Entrypoint.Before);
+        } else if(fix.type == Fix.Type.replace) {
+            return new StaticCodeFix(fix.text, StaticCodeFix.Entrypoint.Replace);
         } else {
             throw new IllegalArgumentException("invalid fix");
         }
